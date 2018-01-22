@@ -74,7 +74,6 @@ main(int argc, char **argv)
 
         // write the data to the server
         //LAB 1 PART A: UNCOMMENT THE LINE BELOW
-        //send(server, line.c_str(), line.length(), 0);
 
         // read the response
         memset(buf,0,buflen);
