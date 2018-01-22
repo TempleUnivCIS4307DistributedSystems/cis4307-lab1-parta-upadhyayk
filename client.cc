@@ -73,7 +73,8 @@ main(int argc, char **argv)
     while (getline(cin,line)) {
 
         // write the data to the server
-        send(server, line.c_str(), line.length(), 0);
+        //LAB 1 PART A: UNCOMMENT THE LINE BELOW
+        //send(server, line.c_str(), line.length(), 0);
 
         // read the response
         memset(buf,0,buflen);
